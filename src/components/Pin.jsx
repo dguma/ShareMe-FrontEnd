@@ -36,7 +36,7 @@ const Pin = ({ pin: { postedBy, image, _id, destination } }) => {
                                 href={`${image?.asset?.url}?dl=`}
                                 download
                                 onClick={(e) => e.stopPropagation}
-                                className='bg-white w-9 h-9 rounded-full flex items-center'
+                                className='bg-white w-9 h-9 rounded-full flex items-center justify-center text-dark text-xl opacity-75'
                                 >
                                 <MdDownloadForOffline />
                             </a>
